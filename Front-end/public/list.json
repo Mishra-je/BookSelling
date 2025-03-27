@@ -1,0 +1,59 @@
+[{
+    "id" : 1,
+    "name" : "Story Book",
+    "title" : "The Enchanted Quest: A Tale of Magic, Mystery, and Courage in a Land of Forgotten Legends and Hidden Secrets",
+    "price" : 0,
+    "category" : "Free",
+    "image" : "./images/story.jpg"
+},
+{
+    "id" : 2,
+    "name" : "Entertainment Book",
+    "title" : "The Ultimate Show: A Thrilling Journey Through Music, Movies, Comedy, and the Magic of Live Performances",
+    "price" : 0,
+    "category" : "Free",
+    "image" : "https://img.freepik.com/free-vector/childs-story-book_1051-545.jpg?ga=GA1.1.216175177.1737138395&semt=ais_authors_boost"
+},
+{
+    "id" : 3,
+    "name" : "Sports Book ",
+    "title" :"Chasing Greatness: The Ultimate Journey of Champions, Records, and the Spirit of Sportsmanship",
+    "price" : 0,
+    "category" : "Free",
+    "image" : "https://img.freepik.com/free-vector/flat-design-online-yoga-class-concept_23-2148546404.jpg?ga=GA1.1.216175177.1737138395&semt=ais_authors_boost"
+},
+{
+    "id" : 4,
+    "name" : "Music Book",
+    "title" : "The Rhythm of Life: Exploring Music’s Power, Legends, and the Melodies That Shape Our World",
+    "price" : 0,
+    "category" : "Free",
+    "image" : "https://img.freepik.com/free-vector/flat-hand-drawn-hygge-illustration-with-man-playing-guitar_52683-56083.jpg?ga=GA1.1.216175177.1737138395&semt=ais_authors_boost"
+},
+{
+    "id" : 5,
+    "name" : "Ramayan Book",
+    "title" : "A Timeless Tale of Duty, Devotion, and the Triumph of Good Over Evil",
+    "price" : 0,
+    "category" : "Free",
+    "image" : "https://img.freepik.com/free-vector/flat-illustration-hindu-vishu-festival_23-2150239936.jpg?ga=GA1.1.216175177.1737138395&semt=ais_authors_boost"
+},
+{
+    "id" : 6,
+    "name" : "SelfDevelopement Book",
+    "title" : "A Timeless Tale of Duty, Devotion, and the Triumph of Good Over Evil",
+    "price" : 400,
+    "category" : "Free",
+    "image" : "https://img.freepik.com/free-vector/tiny-woman-sitting-huge-book-flat-vector-illustration_74855-5946.jpg?ga=GA1.1.216175177.1737138395&semt=ais_authors_boost"
+},
+{
+    "id" : 7,
+    "name" : "Exercise Book",
+    "title" : "A Timeless Tale of Duty, Devotion, and the Triumph of Good Over Evil",
+    "price" : 200,
+    "category" : "Exercise",
+    "image" : "https://img.freepik.com/free-vector/coach-concept-illustration_114360-28592.jpg?ga=GA1.1.216175177.1737138395&semt=ais_hybrid"
+}
+
+
+]
