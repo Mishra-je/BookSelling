@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import banner from "../assets/banner.png";
+import banner from "../assets/Banner.png"; // Import your banner image here
 
 const Banner = () => {
   const [isDarkMode, setIsDarkMode] = useState(
