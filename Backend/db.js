@@ -3,7 +3,7 @@ const dotenv = require('dotenv')
 dotenv.config();
 
 // const mongourl = "mongodb://127.0.0.1:27017/BookStore";
-const mongourl = process.env.MONGO_URL || "mongodb+srv://sachinm374196:siddhh123@cluster0.vrtsicm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const mongourl = process.env.MONGO_URL || "MONGO_URL=mongodb+srv://sachinm374196:siddhh123@cluster0.vrtsicm.mongodb.net/BookStore?retryWrites=true&w=majority&appName=Cluster0&ssl=true";
 
 console.log("mongourl is ",mongourl)
 mongoose.connect(mongourl,{ useNewUrlParser: true,
