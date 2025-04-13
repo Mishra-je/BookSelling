@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import banner from "../assets/Banner.png"; // Import your banner image here
-
+import banner from "../assets/Banner.png"; 
 const Banner = () => {
   const [isDarkMode, setIsDarkMode] = useState(
     localStorage.getItem("theme") === "dark"
