@@ -6,7 +6,11 @@ dotenv.config();
 const mongourl = process.env.MONGO_URL || "mongodb+srv://sachinm374196:siddhh123@cluster0.vrtsicm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 console.log("mongourl is ",mongourl)
-mongoose.connect(mongourl,{ useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(mongourl,{ seNewUrlParser: true,
+  useUnifiedTopology: true,
+  ssl: true,
+  tlsAllowInvalidCertificates: false,
+  serverSelectionTimeoutMS: 10000, });
 
 const db = mongoose.connection;
 
