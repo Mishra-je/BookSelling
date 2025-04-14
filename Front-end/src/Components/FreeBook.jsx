@@ -63,7 +63,7 @@ const FreeBook = () => {
   };
 
   const getBook = async () => {
-    const res = await axios.get('http://localhost:8000/book/getbook');
+    const res = await axios.get('https://bookselling-6uf0.onrender.com/book/getbook');
     // console.log(res.data.books);
     const data = res.data.books;
     if(!data){

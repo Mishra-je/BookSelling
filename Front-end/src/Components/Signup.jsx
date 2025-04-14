@@ -42,7 +42,7 @@ const Signup = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:8000/auth/signup", formData);
+      const res = await axios.post("https://bookselling-6uf0.onrender.com/auth/signup", formData);
       handleSucess(res.data.message);
       navigate("/login");
     } catch (error) {

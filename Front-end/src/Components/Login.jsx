@@ -36,7 +36,7 @@ const Login = () => {
 
     try {
       setLoading(true);
-      const { data } = await axios.post("http://localhost:8000/auth/login", formData);
+      const { data } = await axios.post("https://bookselling-6uf0.onrender.com/auth/login", formData);
       localStorage.setItem("token", data.token);
       setMessage(data.message);
       handleSucess(data.message);
